@@ -1,6 +1,6 @@
 ﻿Console.WriteLine("Введите число дня недели: ");
 int day_of_week = Convert.ToInt32(Console.ReadLine());
-switch(day_of_week)
+switch (day_of_week)
 {
     case 1:
         Console.WriteLine("Понедельник");
