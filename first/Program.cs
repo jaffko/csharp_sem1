@@ -4,15 +4,15 @@ try
     int a = Convert.ToInt32(Console.ReadLine());
     int b = a * a;
     Console.WriteLine("Квадрат числа равен " + b);
-    if (a>0)
+    if (a > 0)
     {
         Console.WriteLine("Число положительное");
     }
-    else if (a<0) Console.WriteLine("Число отрицательное");
+    else if (a < 0) Console.WriteLine("Число отрицательное");
     else Console.WriteLine("Число равно нулю");
 }
-catch 
+catch
 {
-    
-   Console.WriteLine("Нужно целое число!"); 
+
+    Console.WriteLine("Нужно целое число!");
 }
