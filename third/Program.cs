@@ -25,4 +25,5 @@ switch(day_of_week)
         break;
     default:
         Console.WriteLine("Такого дня нет");
+        break;
 }
