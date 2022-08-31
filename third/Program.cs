@@ -23,4 +23,6 @@ switch(day_of_week)
     case 7:
         Console.WriteLine("Воскресенье");
         break;
+    default:
+        Console.WriteLine("Такого дня нет");
 }
